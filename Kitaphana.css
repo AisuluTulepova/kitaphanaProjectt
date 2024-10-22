@@ -1,0 +1,233 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+body{
+    background-image:url(suret/fon.webp);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+
+.logo{
+    width: 8%;
+}
+
+img{
+    width:150%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+    font-size: 21px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease-in; 
+}
+
+nav ul a:hover{
+    background-color: rgb(222, 233, 239);
+    color: rgb(9, 9, 9);
+}
+
+header{
+    background-color: #55b9ef;
+    box-shadow: 5px 13px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 1680px;
+    height: 80px;
+
+}
+ 
+.burger-menu{
+    display: none;
+    cursor: pointer;
+
+}
+
+.burger-list{
+    display: none;
+    background-color: white;
+    width: 150px;
+}
+
+@media(max-width:1000px){
+    ul{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        width: 30px;
+    }
+    nav{
+        position: relative;
+    }
+    .burger-menu:hover .burger-list{
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .logo{
+        width: 13%;
+    }
+}
+
+
+
+.box1{
+    margin: 50px 0 0 170px;
+    width: 1350px;
+    height: 600px;
+}
+
+.block1{
+    position: absolute;
+    z-index: 1;
+}
+.block2{
+    margin: 130px 0 0 200px;
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    height: 200px;
+}
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+h1{
+    margin-top: 70px;
+    text-align: end;
+    font-size: 50px;
+}
+.block3{
+    position: absolute;
+    border: 1px solid rgb(81, 162, 232);
+    width: 100%;
+    height: 60px;
+    background-color: #55b9ef;
+    margin: 700px 0 0 0px;  
+    box-shadow: 5px 13px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+}
+.Zhanalyq{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;  
+}
+.block4{
+    width: 1000px;
+    position: absolute;
+    margin: 800px 0 0 180px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.foto{
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin: 1180px 0 0 0;
+    background-color: #3f2bf3;
+    color: antiquewhite;
+}
+footer p{
+    margin: 20px 0 0 100px;
+    font-size: large;
+}
+footer h5{
+    font-size: 22px;
+    margin: 20px 0 0 100px;
+}
+.footer{
+    display: flex;
+    gap:200px
+}
+.icon{
+    margin: 20px 0 0 0;
+    width: 40px;
+    height: 40px;
+}
+.NET{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.library-section{
+    margin: 50px 50px 50px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 13px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: #f8fad7;
+    
+}
+.library1{
+    display: flex;
+}
+.library2{
+    width: 350px;
+    border-radius: 20px;
+}
+.input{
+    margin: 0 150px;
+    width:200px;
+    height: 27px;
+
+}
+
+.library-button{
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(162, 183, 211);
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.library-button:hover{
+    background-color: #40f740;
+}
+.libraryTEBT{
+    margin: 100 0 20px 35px;
+    padding: 0 20px 20px 20px;
+  
+}
